@@ -5,8 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <script src="js/UsuarioApi.js" type="text/javascript"></script>
+        <script src="js/UsuarioView.js" type="text/javascript"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        
+        <p>Código: <span id="codigo"></span></p>
+        <p>Nome: <span id="nome"></span></p>
+        <p>E-mail: <span id="email"></span></p>
+        <p>Login: <span id="login"></span></p>
+        
+        <h3>Lista de Usuários</h3>
+        
+        <table id="tabelaDeUsuarios">
+            <thead>
+                <tr>
+                    <td>Código</td>
+                    <td>Nome</td>
+                    <td>E-Mail</td>
+                    <td>Login</td>
+                </tr>
+            </thead>
+            <tbody id="listaDeUsuarios"></tbody>
+            
+        </table>
+              
     </body>
 </html>

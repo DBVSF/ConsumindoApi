@@ -10,7 +10,10 @@ function getUsuarios() {
         if (this.readyState === 4) {
             var usuarios = JSON.parse(this.responseText);
             //faca algo
-            console.log(usuarios);
+            exibirUsuarios(usuarios);
+            
+            
+            
         }
     });
     
